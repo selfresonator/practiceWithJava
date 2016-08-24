@@ -1,14 +1,19 @@
-import java.util.HashMap;
+class School {
 
-public class School() {
+  String schoolName;
 
   public School(String name) {
-    this.name = name;
+    schoolName = name;
+  }
+
+  public String getName() {
+    return schoolName;
   }
 
   public static void main() {
     School college = new School("Berklee");
-    System.out.println(college);
+    String sName = college.getName();
+    System.out.println(sName);
   }
 
 }
