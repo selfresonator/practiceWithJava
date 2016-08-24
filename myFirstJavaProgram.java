@@ -10,7 +10,7 @@ class School {
     return schoolName;
   }
 
-  public static void main() {
+  public static void main(String[] args) {
     School college = new School("Berklee");
     String sName = college.getName();
     System.out.println(sName);
